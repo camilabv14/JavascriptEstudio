@@ -1,13 +1,7 @@
-function solution(sequence) {
-  const s = sequence;
-  
-  for (let i = 0; i < s.length; i++) {
-    if (s[i] <= s[i - 1]) {
-      return false;
-    } else if (s[i] < s[i + 1]) {
-      return true;
-    }
-  }
-}
+const h1 = document.querySelector("h1");
+const p = document.querySelector("p");
+const parrafito = document.querySelector(".parrafito");
+const pid = document.querySelector("#pid");
+const input = document.querySelector("input");
 
-console.log(solution([1,2,3,4,5]))
+h1.innerHTML = "Patito <br> Feo";
